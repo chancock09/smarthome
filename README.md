@@ -13,9 +13,20 @@ Install:
   - Add IP Address for Hue Bridge
   - Check settings to expose lights
  
+- Debugging
+  - [Can't hide bridge from favorites](https://github.com/ebaauw/homebridge-hue/issues/767#issuecomment-695763159)
+
 2. Airconnect
 
 - [Install Airconnect](https://github.com/philippe44/AirConnect)
+- Download from [here](https://github.com/philippe44/AirConnect/blob/master/bin/airupnp-osx-multi)
+- I ran this:
+
+```
+10188  mv ~/Downloads/airupnp-osx-multi .
+10189  chmod a+x airupnp-osx-multi
+10190  ./airupnp-osx-multi
+```
 
 3. Other
 
